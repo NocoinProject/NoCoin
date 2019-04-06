@@ -22,7 +22,7 @@ const uint64_t DIFFICULTY_TARGET                             = 20; // seconds
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 3914525;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 9602;
 const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 30;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V3         = 3 * DIFFICULTY_TARGET;
@@ -33,13 +33,13 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(2100000000000000);
-const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 187000;
+const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 1;
 const size_t   ZAWY_DIFFICULTY_V2                            = 0;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
 
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 620000;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 700000;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 800000;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 2;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 3;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 4;
 
 const unsigned EMISSION_SPEED_FACTOR                         = 23;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
@@ -84,7 +84,7 @@ const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 0;
 
-const uint64_t MINIMUM_FEE                                   = UINT64_C(1);
+const uint64_t MINIMUM_FEE                                   = UINT64_C(100);
 
 /* This section defines our minimum and maximum mixin counts required for transactions */
 const uint64_t MINIMUM_MIXIN_V1                              = 0;
