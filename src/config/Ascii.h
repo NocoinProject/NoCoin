@@ -5,10 +5,20 @@
 #pragma once
 
 const std::string windowsAsciiArt =
-      "\n N O C O I N n";
+      "\n    _   _            _____           _         /n"
+      "     | \ | |          / ____|         (_)        /n"
+      "     |  \| |   ___   | |        ___    _   _ __  /n"
+      "     | . ` |  / _ \  | |       / _ \  | | | '_ \ /n"
+      "     | |\  | | (_) | | |____  | (_) | | | | | | |/n"
+      "     |_| \_|  \___/   \_____|  \___/  |_| |_| |_| /n";
 
 const std::string nonWindowsAsciiArt = 
-      "\n n";
+      "\n    _   _            _____           _         /n"
+      "     | \ | |          / ____|         (_)        /n"
+      "     |  \| |   ___   | |        ___    _   _ __  /n"
+      "     | . ` |  / _ \  | |       / _ \  | | | '_ \ /n"
+      "     | |\  | | (_) | | |____  | (_) | | | | | | |/n"
+      "     |_| \_|  \___/   \_____|  \___/  |_| |_| |_| /n";
 
 /* Windows has some characters it won't display in a terminal. If your ascii
    art works fine on Windows and Linux terminals, just replace 'asciiArt' with
