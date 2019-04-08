@@ -4,7 +4,7 @@
 // Copyright (c) 2019-2019, The Nocoin Project
 //
 // Please see the included LICENSE file for more information.
-//Open: UPGRADE_HEIGHT_V5;
+//Open: UPGRADE_HEIGHT_V5; MIXIN_LIMITS_V3_HEIGHT
 
 #pragma once
 
@@ -99,8 +99,8 @@ const uint64_t MAXIMUM_MIXIN_V3                              = 7;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 0;
-const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 1;
-const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 788400;
+const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 788400;
+const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 6307200;
 
 /* The mixin to use by default with zedwallet and turtle-service */
 /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -265,7 +265,7 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "206.189.142.142:11897",//rock
+  "192.168.2.117:11897",//rock
   "145.239.88.119:11999", //cision
   "142.44.242.106:11897", //tom
   "165.227.252.132:11897" //iburnmycd
