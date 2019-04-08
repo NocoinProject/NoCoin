@@ -1,0 +1,3 @@
+https://github.com/turtlecoin/turtlecoin#how-to-compile
+
+You'll then find all the stuff mentioned in INSTRUCTIONS -- READ FIRST in NoCoin\Build\src(Windows:+\Release)
